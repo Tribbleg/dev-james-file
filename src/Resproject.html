@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gradient-to-b from-[#000000] via-[#7370FF] to-[#3d3bac]">
+    <section class="lg:justify-between md:justify-between gap-[40px]">
+      <nav
+        class="lg:flex md:flex flex lg:justify-between lg:px-24 md:justify-between justify-between"
+      >
+        <div class="mt-2">
+          <img src="./assets/Div [flex].png" width="" alt="" />
+        </div>
+
+        <div>
+          <ul class="lg:flex md:flex hidden gap-7 mt-2">
+            <li class="text-[#999999] hover:text-white">
+              <a href="./community.html">Community</a>
+            </li>
+            <li class="text-[#999999] hover:text-white">
+              <a href="./Roadmap.html">Roadmap</a>
+            </li>
+            <li class="text-[#999999] hover:text-white">
+              <a href="./Pricing.html">Pricing</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- hamburger menu -->
+        <div
+          class="lg:hidden md:hidden text-white text-3xl block mt-3"
+          id="hamburger"
+        >
+          <!-- <img
+            class="lg:hidden md:hidden block cursor-pointer"
+            src="./assets/eec071442e9a1b8e017c5a7c1853b880-removebg-preview.png"
+            width="30px"
+            alt=""
+          /> -->
+          &#9776;
+        </div>
+
+        <div class="hidden">
+          <div class="lg:flex md:flex hidden">
+            <a href="/src/Login.html"
+              ><button
+                class="w-20 h-8 bg-white text-black hover:bg-[#45445f] cursor-pointer font-bold rounded-md mt-2"
+              >
+                Log In
+              </button></a
+            >
+          </div>
+          <div class="lg:flex md:flex hidden">
+            <button
+              class="lg:w-32 h-10 bg-[#7370FF] hover:bg-indigo-600 cursor-pointer text-white font-bold rounded-md mt-1"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Mobile menu -->
+      <div
+        id="mobileMenu"
+        class="hidden absolute top-16 right-4 bg-[#b3b0b0] text-white h-[400px] rounded-md shadow-lg p-4 space-y-3 z-50 w-full"
+      >
+        <div
+          class="text-right text-3xl font-semibold cursor-pointer"
+          id="closebar"
+        >
+          &times;
+        </div>
+
+        <div class=" space-y-8 bg-white h-28 w-64 rounded-lg text-center ">
+          <ul>
+            <li class="text-black font-bold">
+              <a href="./community.html">Community</a>
+            </li>
+            <li class="text-black font-bold">
+              <a href="./Roadmap.html">Roadmap</a>
+            </li>
+            <li class="text-black font-bold">
+              <a href="./Pricing.html">Pricing</a>
+            </li>
+          </ul>
+
+          <a href="/src/Login.html"
+              ><button
+                class="w-20 h-8 bg-black text-white  hover:bg-[#3d3bac] cursor-pointer font-bold rounded-md mt-2"
+              >
+                Log In
+              </button></a
+            >
+
+
+
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="font-bold text-white text-6xl mt-32 text-center">
+        <span
+          class="text-transparent bg-clip-text bg-gradient-to-b from-white to-[#6c68ce]"
+          >The visual website builder <br />
+          for Next.js & Tailwind</span
+        >
+      </h1>
+      <p class="text-center text-[#D4D8DD] mt-10">
+        Build at the speed of no-code. Export a Next.js, Tailwind <br />and
+        Shadcn UI app. Customize without limits.
+      </p>
+      <div class="flex lg:justify-center md:justify-center justify-center">
+        <button
+          class="w-40 h-10 rounded-md text-white font-medium mt-8 bg-[#7370FF]"
+        >
+          Build your site >
+        </button>
+      </div>
+
+      <div class="flex lg:justify-center md:justify-center justify-center">
+        <img
+          class="mt-8"
+          src="/src/assets/Div [relative].png"
+          width="150px"
+          alt=""
+        />
+      </div>
+    </section>
+    <section class="flex lg:justify-center md:justify-center justify-center">
+      <img
+        class="mt-10"
+        src="/src/assets/Video [rounded-md].png"
+        width="1300px"
+        alt=""
+      />
+    </section>
+
+    <section class="bg-black">
+      <h1 class="text-white text-center text-4xl font-medium pt-20">
+        Visual editing, built for developers
+      </h1>
+      <p class="text-[#999999] text-center pt-8">
+        No need to learn new mental models and frameworks.<br />It feels like
+        editing code, but visually.
+      </p>
+    </section>
+
+    <section
+      class="bg-black flex gap-8 pt-36 lg:justify-center md: justify-center pt-10"
+    >
+      <div>
+        <img src="/src/assets/Div1 [h-[420px]].png" width="500px" alt="" />
+      </div>
+
+      <div>
+        <img src="/src/assets/Div [h-[420px]].png" width="500px" alt="" />
+      </div>
+    </section>
+    <section class="bg-black lg:text-center md:text-center text-center">
+      <h1 class="pt-20 text-white text-3xl font-medium">
+        Build fast. Stay flexible.
+      </h1>
+    </section>
+
+    <section
+      class="bg-black lg:flex md:flex grid gap-30 lg:justify-center md:justify-center text-center pt-0"
+    >
+      <div>
+        <h1 class="pt-16 font-bold text-white">Visual Builder</h1>
+        <p class="text-[#999999]">
+          Edit Tailwind & Shadcn UI components with a visual <br />
+          builder and see your changes in real-time.
+        </p>
+
+        <h1 class="pt-10 font-bold text-white">Code Export</h1>
+        <p class="text-[#999999]">
+          Export a quality Next.js codebase. Customize <br />
+          without limits and host anywhere.
+        </p>
+
+        <h1 class="pt-10 font-bold text-white">Pre-made templates</h1>
+        <p class="text-[#999999]">
+          Get started quickly with beautifully designed <br />blocks and
+          templates.
+        </p>
+
+        <h1 class="pt-10 font-bold text-white">AI-generated themes</h1>
+        <p class="text-[#999999]">
+          Generate beautiful themes and color palettes from <br />a prompt.
+        </p>
+      </div>
+
+      <div>
+        <img
+          class="pt-24"
+          src="/src/assets/Video [rounded-md].png"
+          width="550px"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="bg-black">
+      <h1 class="font-medium text-3xl text-white text-center pt-32">
+        What people are saying
+      </h1>
+      <br />
+      <p class="text-[#999999] text-center">
+        Thousands of developers and teams love Reweb.
+      </p>
+      <br />
+      <br />
+      <br />
+    </section>
+
+    <!-- first message background -->
+
+    <div class="bg-black text-white py-16 px-4">
+      <div
+        class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+      >
+        <!-- Testimonial Card -->
+        <div class="bg-[#1F1F1F] p-6 rounded-xl">
+          <p class="mb-4">
+            It practically solves every issue I have with Webflow and Framer.
+            This is so much easier to use as a developer!
+          </p>
+          <div class="flex items-center gap-3">
+            <img
+              src="./assets/Image [rounded-full].png"
+              alt="avatar"
+              class="w-10 h-10 rounded-full"
+            />
+            <div>
+              <p class="font-semibold">Jaiden Lee</p>
+              <p class="text-sm text-gray-400">@buildjaiden</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <!testimonial card 2> -->
+        <div class="bg-[#1F1F1F] p-6 rounded-xl">
+          <p class="mb-4">Amamzing.</p>
+          <div class="flex items-center gap-3">
+            <img
+              src="./assets/Image1 [rounded-full].png"
+              alt="avatar"
+              class="w-10 h-10 rounded-full"
+            />
+            <div>
+              <p class="font-semibold">shadcn</p>
+              <p class="text-sm text-gray-400">@shadcn</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3-->
+        <div class="bg-[#1F1F1F] p-6 rounded-xl">
+          <p class="mb-4">
+            I really have been missing this product for years. It feels like a
+            much more natural way of working.
+          </p>
+          <div class="flex items-center gap-3">
+            <img
+              src="./assets/Image2 [rounded-full].png"
+              alt="avatar"
+              class="w-10 h-10 rounded-full"
+            />
+            <div>
+              <p class="font-semibold">Ninjanordbo</p>
+              <p class="text-sm text-gray-400">@ninjanordbo</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <!testimonial card 4> -->
+        <div class="bg-[#1F1F1F] p-6 rounded-xl">
+          <p class="mb-4">This looks really freaking cool!!</p>
+          <div class="flex items-center gap-3">
+            <img
+              src="./assets/Image3 [rounded-full].png"
+              alt="avatar"
+              class="w-10 h-10 rounded-full"
+            />
+            <div>
+              <p class="font-semibold">James Q Quick</p>
+              <p class="text-sm text-gray-400">@jamesqquick</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <!testimonial card 5> -->
+        <div class="bg-[#1F1F1F] p-6 rounded-xl">
+          <p class="mb-4">
+            This is awesome. Better than Framer/Wordpress as you can take the
+            code and continue working on it instantly yourself.
+          </p>
+          <div class="flex items-center gap-3">
+            <img
+              src="./assets/Image4 [rounded-full].png"
+              alt="avatar"
+              class="w-10 h-10 rounded-full"
+            />
+            <div>
+              <p class="font-semibold">soumya dot dev</p>
+              <p class="text-sm text-gray-400">@geekysrm</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <!testimonial card 6> -->
+        <div class="bg-[#1F1F1F] p-6 rounded-xl">
+          <p class="mb-4">This is so tastefully built. Loving it.</p>
+          <div class="flex items-center gap-3">
+            <img
+              src="./assets/Image5 [rounded-full] (1).png"
+              alt="avatar"
+              class="w-10 h-10 rounded-full"
+            />
+            <div>
+              <p class="font-semibold">Kabir Asani</p>
+              <p class="text-sm text-gray-400">@KabirAsani</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <!testimonial card 7> -->
+        <div class="bg-[#1F1F1F] p-6 rounded-xl">
+          <p class="mb-4">
+            Absolutely love Reweb! Such a game changer for building beautiful
+            landing pages effortlessly.
+          </p>
+          <div class="flex items-center gap-3">
+            <img
+              src="./assets/Image6 [rounded-full].png"
+              alt="avatar"
+              class="w-10 h-10 rounded-full"
+            />
+            <div>
+              <p class="font-semibold">Wayne</p>
+              <p class="text-sm text-gray-400">@wayne_dev</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <!testimonial card 8> -->
+        <div class="bg-[#1F1F1F] p-6 rounded-xl">
+          <p class="mb-4">
+            This is super cool! Very easy to use, and better than trying to mock
+            things up in Figma.
+          </p>
+          <div class="flex items-center gap-3">
+            <img
+              src="./assets/Image7 [rounded-full].png"
+              alt="avatar"
+              class="w-10 h-10 rounded-full"
+            />
+            <div>
+              <p class="font-semibold">Mike Knapp</p>
+              <p class="text-sm text-gray-400">@mikeee</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <!testimonial card 9> -->
+        <div class="bg-[#1F1F1F] p-6 rounded-xl">
+          <p class="mb-4">
+            This is my new favorite way of building projects quickly.
+          </p>
+          <div class="flex items-center gap-3">
+            <img
+              src="./assets/Image8 [rounded-full] (1).png"
+              alt="avatar"
+              class="w-10 h-10 rounded-full"
+            />
+            <div>
+              <p class="font-semibold">Paul Bratslavsky</p>
+              <p class="text-sm text-gray-400">@codingthirty</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <section class="pt-16 bg-black">
+      <h2
+        class="text-4xl md:text-5xl font-semibold text-center mb-6 text-white"
+      >
+        FAQ
+      </h2>
+      <p class="text-center text-gray-400 mb-10">
+        Got other questions? Reach out in our
+        <a href="#" class="text-[#999999] font-bold hover:underline">Discord</a
+        >.
+      </p>
+
+      <div class="space-y-4">
+        <!-- FAQ Item -->
+        <div
+          class="bg-[#1e1e1e] rounded-lg p-4 hover:bg-[#2a2a2a] cursor-pointer"
+        >
+          <div class="flex items-center space-x-3">
+            <!-- space-x-3 for small & medium screen  -->
+            <span class="text-purple-400 font-bold text-lg">+</span>
+            <p class="text-white lg:pl-8 md:pl-6">
+              How is Reweb different than tools like Framer or Webflow?
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1e1e1e] rounded-lg p-4 flex items-center justify-between hover:bg-[#2a2a2a] cursor-pointer"
+        >
+          <div class="flex items-center space-x-3">
+            <span class="text-purple-400 font-bold text-lg">+</span>
+            <p class="text-white lg:pl-8 md:pl-6">
+              What is the learning curve for Reweb?
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1e1e1e] rounded-lg p-4 flex items-center justify-between hover:bg-[#2a2a2a] cursor-pointer"
+        >
+          <div class="flex items-center space-x-3">
+            <span class="text-purple-400 font-bold text-lg">+</span>
+            <p class="text-white lg:pl-8 md:pl-6">
+              Is the generated code high quality?
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1e1e1e] rounded-lg p-4 flex items-center justify-between hover:bg-[#2a2a2a] cursor-pointer"
+        >
+          <div class="flex items-center space-x-3">
+            <span class="text-purple-400 font-bold text-lg">+</span>
+            <p class="text-white lg:pl-8 md:pl-6">
+              Do you plan to add more sections and templates?
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#1e1e1e] rounded-lg p-4 flex items-center justify-between hover:bg-[#2a2a2a] cursor-pointer"
+        >
+          <div class="flex items-center space-x-3">
+            <span class="text-purple-400 font-bold text-lg">+</span>
+            <p class="text-white lg:pl-8 md:pl-6">
+              Can I import my own components?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black">
+      <h1 class="font-bold pt-20 text-4xl text-white text-center">
+        Code at the speed of no-code
+      </h1>
+      <br />
+      <p class="text-[#999999] text-center">
+        Build websites at the speed of no-code. Export a Next.js, Tailwind
+      </p>
+      <p class="text-[#999999] text-center">
+        and Shadcn UI app. Customize without limits.
+      </p>
+      <br />
+      <div
+        class="lg:flex justify-center md:flex justify-center flex justify-center"
+      >
+        <button
+          class="w-40 h-10 rounded-md text-white font-medium mt-8 bg-[#7370FF]"
+        >
+          Build your site >
+        </button>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer
+      class="bg-black pt-28 lg:flex justify-between md:flex justify-between flex gap-10"
+    >
+      <div class="">
+        <img src="./assets/Div [flexx].png" width="200px" alt="" />
+        <p class="text-[#999999] pt-2">Code at the speed of no-code.</p>
+        <img class="pt-5" src="./assets/Div [mt-4].png" width="200px" alt="" />
+      </div>
+
+      <div class="">
+        <p class="text-white font-bold">Community</p>
+        <p class="text-[#999999] pt-4">Discord</p>
+        <p class="text-[#999999] pt-4">Email</p>
+      </div>
+
+      <div class="text-white font-bold">
+        Legal
+        <p class="text-[#999999] pt-4">Terms of Service</p>
+        <p class="text-[#999999] pt-4">Privacy Policy</p>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

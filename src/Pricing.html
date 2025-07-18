@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-black">
+    <section class="lg:justify-between md:justify-between gap-[40px]">
+      <nav
+        class="lg:flex md:flex flex lg:justify-between lg:px-24 md:justify-between justify-between"
+      >
+        <div class="mt-2">
+          <img src="./assets/Div [flex].png" width="" alt="" />
+        </div>
+
+        <div>
+          <ul class="lg:flex md:flex hidden gap-7 mt-2">
+            <li class="text-[#999999]"><a href="#">Community</a></li>
+            <li class="text-[#999999]"><a href="./Roadmap.html">Roadmap</a></li>
+            <li class="text-[#999999] hover:text-white"><a href="./Pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <a href="/src/Login.html"
+            ><button class="w-20 h-8 bg-white font-bold rounded-md mt-2">
+              Log In
+            </button></a
+          >
+          <button
+            class="lg:w-32 h-10 bg-[#7370FF] hover:bg-indigo-600 cursor-pointer text-white font-bold rounded-md mt-1"
+          >
+            Get Started
+          </button>
+        </div>
+      </nav>
+    </section>
+  </body>
+  <section class="bg-black text-white py-16 px-4">
+    <div class="max-w-6xl mx-auto text-center">
+      <!-- Title -->
+      <h2 class="text-4xl font-semibold mb-4">Simple Pricing</h2>
+      <p class="text-[#999999] mb-8">
+        Try all the visual builder features for free. Upgrade<br class="" />
+        to export the code only if you are satisfied.
+      </p>
+      <!-- hidden sm:inline -->
+  
+      <!-- Toggle (Developer / Teams) -->
+       <!-- inline-flex border rounded-full overflow-hidden mb-12  -->
+      <div class="bg-[#212121] hover:bg-[#7370FF] text-black cursor-pointer mb-8 w-90 h-12 rounded-3xl inline-flex">
+        <button class="px-7 py-1 bg-black text-white hover:bg-[#212121] text-[#999999] cursor-pointer w-50 h-10 mt-1 ml-1 rounded-full text-white font-medium">Developer</button>
+        <button class="px-6 py-2 text-[#999999] hover:text-black ml-5 font-bold">Teams</button>
+      </div>
+  
+      <!-- Pricing Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left mb-12"> 
+        <!-- text-left 4 small screen -->
+        <!-- Monthly -->
+        <div class= "bg-[#212121] p-6 rounded-xl flex flex-col justify-between">
+          <!-- p-6 gave it space in d bg -->
+          <!-- flex-col 4 try for free -->
+          <div>
+            <h3 class="text-xl font-semibold mb-1">Monthly</h3>
+            <p class="text-3xl font-bold">$15 <span class="line-through text-gray-500 text-base">$20</span></p>
+            <p class="text-gray-400 mb-6">Per month</p>
+          </div>
+          <button class="bg-[#7370FF] hover:bg-indigo-600 text-white py-2 rounded-lg font-medium">Try for free</button>
+        </div>
+  
+        <!-- Annual -->
+        <div class="bg-[#212121] p-6 rounded-xl flex flex-col justify-between relative border border-indigo-500">
+          <span class="absolute -top-0 right-0 bg-[#7370FF] text-sm text-white px-3 py-1 rounded-full">Most popular</span>
+          <div>
+            <h3 class="text-xl font-semibold mb-1">Annual</h3>
+            <p class="text-3xl font-bold">$79 <span class="line-through text-gray-500 text-base">$99</span></p>
+            <p class="text-gray-400 mb-6">Per year</p>
+          </div>
+          <button class="bg-[#7370FF] hover:bg-indigo-600 text-white py-2 rounded-lg font-medium">Try for free</button>
+        </div>
+  
+        <!-- Lifetime -->
+        <div class="bg-[#212121] p-6 rounded-xl flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl font-semibold mb-1">Lifetime</h3>
+            <p class="text-3xl font-bold">$99 <span class="line-through text-gray-500 text-base">$149</span></p>
+            <p class="text-gray-400 mb-6">Pay once, use forever</p>
+          </div>
+          <button class="bg-[#7370FF] hover:bg-indigo-600 text-white py-2 rounded-lg font-medium">Try for free</button>
+        </div>
+      </div>
+  
+      <!-- Features -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+        <div class="flex space-x-4">
+          <div><img src="./assets/Div [inline-flex] 1.png" alt=""></div>
+          <div>
+            <h4 class="font-semibold mb-1">Pre-made sections & templates</h4>
+            <p class="text-[#999999] text-sm">Access all available and future sections & templates. <br>
+              (coming soon) and the ones we'll be adding in the future.</p>
+          </div>
+        </div>
+        <div class="flex space-x-4">
+          <div><img src="./assets/Div [inline-flex] 2.png" alt=""></div>
+          <div>
+            <h4 class="font-semibold mb-1">Unlimited Projects & Code Export</h4>
+            <p class="text-[#999999] text-sm">Create and export unlimited websites to fully functional <br>
+              Next.js, Tailwind CSS and Shadcn apps.</p>
+          </div>
+        </div>
+        <div class="flex space-x-4">
+          <div><img src="./assets/Div [inline-flex] 5.png" alt=""></div>
+          <div>
+            <h4 class="font-semibold mb-1">Unlimited AI Theme Generation</h4>
+            <p class="text-[#999999] text-sm">Generate unlimited beautiful themes and color palettes <br>
+              with AI to match your brand identity and style.</p>
+          </div>
+        </div>
+        <div class="flex items-start space-x-4">
+          <div><img src="./assets/Div [inline-flex] 4.png" alt=""></div>
+          <div>
+            <h4 class="font-semibold mb-1">Community & Priority Support</h4>
+            <p class="text-[#999999] text-sm">Get access to our private Discord channel dedicated to <br>
+              pro users for priority support.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FAQ Section -->
+<section class=" pt-16 bg-black">
+  <h2 class="text-4xl md:text-5xl font-semibold text-center mb-6 text-white">FAQ</h2>
+  <p class="text-center text-gray-400 mb-10">
+    Got other questions? Reach out in our
+    <a href="#" class="text-[#999999] font-bold hover:underline">Discord</a>.
+  </p>
+
+  <div class="space-y-4">
+
+                <!-- FAQ Item -->
+    <div class="bg-[#1e1e1e] rounded-lg    p-4 flex items-center justify-between w-full hover:bg-[#2a2a2a] cursor-pointer">
+      <div class="flex items-center space-x-3">
+        <span class="text-purple-400 text-lg">+</span>
+        <p class="text-white lg:pl-8 md:pl-6">How is Reweb different than tools like Framer or Webflow?</p>
+      </div>
+    </div>
+
+    <div class="bg-[#1e1e1e] rounded-lg p-4 flex items-center justify-between hover:bg-[#2a2a2a] cursor-pointer">
+      <div class="flex items-center space-x-3">
+        <span class="text-purple-400 text-lg">+</span>
+        <p class="text-white lg:pl-8 md:pl-6">What is the learning curve for Reweb?</p>
+      </div>
+    </div>
+
+    <div class="bg-[#1e1e1e] rounded-lg p-4 flex items-center justify-between hover:bg-[#2a2a2a] cursor-pointer">
+      <div class="flex items-center space-x-3">
+        <span class="text-purple-400 text-lg">+</span>
+        <p class="text-white lg:pl-8 md:pl-6">Is the generated code high quality?</p>
+      </div>
+    </div>
+
+    <div class="bg-[#1e1e1e] rounded-lg p-4 flex items-center justify-between hover:bg-[#2a2a2a] cursor-pointer">
+      <div class="flex items-center space-x-3">
+        <span class="text-purple-400 text-lg">+</span>
+        <p class="text-white lg:pl-8 md:pl-6">Do you plan to add more sections and templates?</p>
+      </div>
+    </div>
+
+    <div class="bg-[#1e1e1e] rounded-lg p-4 flex items-center justify-between hover:bg-[#2a2a2a] cursor-pointer">
+      <div class="flex items-center space-x-3">
+        <span class="text-purple-400 text-lg">+</span>
+        <p class="text-white lg:pl-8 md:pl-6 ">Can I import my own components?</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+                <!-- footer -->
+                <footer class="bg-black p-4 pt-28 lg:flex justify-between md:flex justify-between flex gap-10 ">
+                  <div class="">
+                    <img src="./assets/Div [flexx].png" width="200px" alt="" />
+                    <p class="text-[#999999] pt-2 sm:text-sm">Code at the speed of no-code.</p>
+                    <img class="pt-5" src="./assets/Div [mt-4].png" width="200px" alt="" />
+                  </div>
+            
+                  <div class="">
+                    <p class="text-white font-bold">Community</p>
+                    <p class="text-[#999999] pt-4">Discord</p>
+                    <p class="text-[#999999] pt-4">Email</p>
+                  </div>
+            
+                  <div class="text-white font-bold">
+                    Legal
+                    <p class="text-[#999999] pt-4">Terms of Service</p>
+                    <p class="text-[#999999] pt-4">Privacy Policy</p>
+                  </div>
+                </footer>
+              </body>
+               </footer>             
